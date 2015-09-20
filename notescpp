@@ -1,0 +1,7 @@
+C++
+
+
+To compile and create an object file to be linked run the following command
+in terminal:
+
+$ g++ -o 'filename' 'filename'.cpp
