@@ -6,18 +6,21 @@ using namespace std;
 int main () 
 
 {
-	
-	int a = 5;
 	// initial value: 5
- 
-	int b (3);
-	// initial value: 3
+ 	// c-like initialization:
+	int a = 5;
 	
-	int c {2};
-	// initial value: 2
+ 	// initial value: 3
+	// constructor type initialization:
+	int b (3);
 
-	int result;
+	// initial value: 2
+	// uniform initialization:
+	int c {2};
+
 	// initial value: undetermined
+	int result;
+	
 
 	a = a + b;
 	result = a - c;
