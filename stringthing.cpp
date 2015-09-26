@@ -1,5 +1,7 @@
 // c++
-// Strings in c++
+// stringthing.cpp
+// nicolas roldos
+// Strings in c++: C++ Liberty Cadenhead
 
 #include <iostream>
 #include <string>
