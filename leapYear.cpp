@@ -13,13 +13,16 @@ bool isLeapYear(int year);
 
 
 int main() {
-// local variable 'input' is defined
+	// local variable 'input' is defined
 	int input;
 
+	// get user input using 'cout' to prompt the user for a year
+	//  capture user input by using 'cin' and storing it in the input variable
 	cout << "Enter a year:\t";
 	cin >> input;
 
-		// if and else statements to adjust for leap-year
+		// if and else statements to adjust for leap-year, checks if 'condition' is 'true'
+		//  using 'isLeapYear()' function, passes in 'input' local variable as 'year' (int) 
 		if (isLeapYear(input)) {
 			cout << input << "\tis a leap-year\n";
 		}
@@ -75,8 +78,6 @@ Enter a year:	2011
 nicowavemountain:cpp nico$ ./leapyear
 Enter a year:	2012
 2012	is a leap-year*/
-
-
 
 
 
