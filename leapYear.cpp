@@ -79,5 +79,3 @@ nicowavemountain:cpp nico$ ./leapyear
 Enter a year:	2012
 2012	is a leap-year*/
 
-
-
