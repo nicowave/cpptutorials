@@ -26,6 +26,7 @@ using namespace std;
 		// The code in the loop places an open square bracket before the character
 		//  in "Hello!" string and a closing-square bracket after the character
 		//  that is printed and in iteration at the moment.
+		
 		for (char c : hellostring) {
 
 			cout << "[" << c << "]";
@@ -43,6 +44,7 @@ NOTE: g++ assumes you are running the standard C++ version 3...
 
 nicowavemountain:cpp nico$ g++ -std=c++11 -o rangeloop rangeloop.cpp
 nicowavemountain:cpp nico$ ./rangeloop
+[H][e][l][l][o][!]
 [H][e][l][l][o][!]
 */
 
