@@ -6,7 +6,7 @@
 
 // while-loop: It behaves like a while-loop, 
 //  except that condition is evaluated after the execution of statement instead of 
-//  before
+//  before, guaranteeing at least one execution of statement
 
 #include <iostream>
 #include <string>

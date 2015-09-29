@@ -6,8 +6,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 int main() {
 
 	// to begin we set counter to 0
